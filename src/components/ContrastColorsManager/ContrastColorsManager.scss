@@ -1,0 +1,18 @@
+.ContrastColorsManager {
+  height: calc(100vh - 4rem);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+
+  &__swatches {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+
+  &__button-group {
+    display: flex;
+    gap: 1rem;
+    margin-top: auto;
+  }
+}
