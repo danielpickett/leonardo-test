@@ -1,6 +1,5 @@
 import React from 'react'
 import './Text.scss'
-import classNames from 'classnames'
 
 export const Text = ({
   color,
@@ -23,9 +22,10 @@ export const Text = ({
     | '900'
 }) => {
 
-  const wrapperClasses = classNames('Text', {
+
+  // const wrapperClasses = classNames('Text', {
     
-  })
+  // })
   return (
     <div className="Text">
       <p>Hello from the Text component</p>

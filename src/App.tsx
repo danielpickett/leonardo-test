@@ -1,13 +1,19 @@
-import React from 'react';
-import './App.scss';
-import { ContrastColorsManager } from './components';
+import React from 'react'
+import './App.scss'
+import {
+  //ContrastColorsManager,
+  AdaptiveThemeManager,
+} from './components'
+import { ColorSamples } from 'components/ColorSamples'
 
 function App() {
   return (
     <div className="App">
-      <ContrastColorsManager />
+      {/* <ContrastColorsManager /> */}
+      <AdaptiveThemeManager />
+      <ColorSamples />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

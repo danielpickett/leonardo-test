@@ -1,0 +1,11 @@
+.ColorSamples {
+  background-color: var(--color-background);
+  &__color-scale {
+    display: flex;
+  }
+  &__color-swatch {
+    $size: 2rem;
+    width: $size;
+    height: $size;
+  }
+}
